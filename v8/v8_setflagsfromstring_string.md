@@ -2,10 +2,7 @@
 added: v1.0.0
 -->
 
-The `v8.setFlagsFromString()` method can be used to programmatically set
-V8 command line flags. This method should be used with care. Changing settings
-after the VM has started may result in unpredictable behavior, including
-crashes and data loss; or it may simply do nothing.
+使用 `v8.setFlagsFromString()` 方法可以以编程方式设置v8命令行参数. 这个方法需要谨慎使用,更改参数有可能导致一些不可预知的情况!
 
 The V8 options available for a version of Node.js may be determined by running
 `node --v8-options`.  An unofficial, community-maintained list of options
